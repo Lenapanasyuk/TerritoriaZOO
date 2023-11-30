@@ -1,0 +1,38 @@
+.new__goods {
+    background: var(--background-default, #FFF);
+    padding: 24px 0;
+}
+
+.new__goods__wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.new__goods__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    & h2 {
+        color: var(--text-default, #202223);
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: SF Pro Display;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 32px;
+    }
+}
+
+.new__goods__button {
+    display: flex;
+    gap: 16px;
+    & button {
+        background: #F6F6F7;
+    }
+}
+
+.new__goods__slider {
+    & .slider__item {
+        background: var(--surface-subdued, #FAFBFB);
+    }
+}
